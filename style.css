@@ -1,0 +1,38 @@
+body {
+    font-family: "DM Sans", sans-serif;
+}
+
+
+nav{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin: 16px;
+}
+
+nav .nav-list{
+    text-align:center;
+    list-style-type: none;
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+}
+
+nav #nav-btn{
+    font-weight: semi-bold;
+    text-decoration: none;
+    background-color: white;
+    font-size: 16px;
+    color: #4B5162;
+}
+
+.start-btn{
+    margin-left: 18px;
+    background-color: #4F46E5;
+    color: white;
+    padding: 16px 12px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration:none;
+}
